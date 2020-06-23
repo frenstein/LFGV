@@ -1,0 +1,262 @@
+html{
+  background-color: #091540ff;
+}
+.imgtop{
+  margin-top: 1vh;
+  box-shadow: 0.7em 0em 6px rgb(0, 0,0,0.3);
+  margin-left: 1vw;
+  height: 16vh;
+  width: 8vw;
+  border-radius: 12vw;
+  border: rgb(2, 2, 2);
+  border-width: 0.2em;
+  border-style: solid;
+}
+.des{
+  white-space: nowrap;
+  z-index: 0;
+  width: 30vw;
+  position: relative;
+  top: 6.5vh;
+  left: -40vw;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-stretch: condensed;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 3vh;
+  color:black;
+  text-shadow:0.1em 0.1em 4px rgb(0, 0,0,0.2);
+}
+
+.chamo{
+  position: relative;
+  display: flex;
+  right: 10vw;
+  margin-top: 3vh;
+}
+
+.galeria{
+  display: flex;
+  background-image: linear-gradient(to top, rgb(44, 123, 160,0), rgb(30, 85, 110));
+  width: 15vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 4vw;
+  transition-duration: 0.5s;
+  color: rgb(231, 219, 219);
+  text-shadow:0.1em 0.1em 4px rgba(12, 12, 12, 0.3);
+  font-weight: bold;
+  font-size: 3vh;
+  font-family: 'Muli', sans-serif;
+}
+
+.memebrete{
+  position: fixed;
+  display: flex;
+  background-color: #cfdbd5ff;
+  height: 20vh;
+  width: 100%;
+  top: -2.2vh;
+  padding-top: 2vh;
+  margin-bottom: 1em;
+  box-shadow: 0em 1em 6px rgb(0, 0,0,0.3);
+}
+.titulo{
+  white-space: nowrap;
+  width: 40vw;
+  z-index: 1;
+  margin-top: 3vh;
+  position: relative;
+  margin-left: 2vw;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-stretch: expanded;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 5vh;
+  color: darkslategrey;
+  text-shadow:0.1em 0.1em 4px rgb(0, 0,0,0.2);
+}
+.subti{
+  margin-top: 28vh;
+  width: 20em;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+  font-size: 5vh;
+  color: gainsboro;
+  text-shadow:0.2em 0.2em 4px rgb(0, 0,0,0.4);
+  border-width: 0.2em;
+  border-color: #091540ff ;
+  border-bottom-color: linen;
+  border-style: solid;
+  font-stretch: extra-expanded;
+  margin-bottom: 3em;
+  padding-bottom: 0.8em;
+  padding-left: 3em;
+}
+.row{
+  align-items: center;
+  justify-content: center;
+  display: flex; 
+  flex-wrap: wrap;
+}
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+    display: flex;
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    border-radius: 5%;
+    box-shadow: 0em 0.5em 6px rgb(0, 0,0,0.3), 0em -0.3em 6px rgb(0, 0,0,0.3);
+    height: 35vh;
+    width: 25vw;
+    margin: 2% 2% 2% 2%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 160vw;
+    max-width: 140vh;
+    top: -10vh;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+    margin-bottom: 5vh;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    height: 5%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    max-width: 100%;
+    width: 20vw;
+    height: 25vh;
+    transition: transform 1s;
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.imgblack{
+  width: 100%;
+}
+
+.final{
+  margin-top: 3vh;
+  position: relative;
+  z-index: 1;
+  height: 20vh;
+  width: 100%;
+  background-color: #cfdbd5ff;
+  box-shadow: 0em -0.8em rgb(0, 0,0,0.4);
+}
+
+.info{
+  white-space: nowrap;
+  width: 30vw;
+  padding-top: 3vh;
+  margin-left: 3vw;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-stretch: condensed;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 3vh;
+  color:black;
+  text-shadow:0.1em 0.1em 4px rgb(0, 0,0,0.2);
+}
+
+/* Media querys*/
