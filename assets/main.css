@@ -5,7 +5,7 @@ html{
     margin-top: 2vh;
     overflow: hidden;
     width: 90%;
-    height: 80%;
+    height: 100%;
 }
 .memebrete{
     display: flex;
@@ -195,7 +195,7 @@ table{
 }
  /* MediaQuerys*/
 
-@media (max-width:700px) {
+@media (max-width:600px) {
     
     body{
         width: 100%;
