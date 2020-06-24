@@ -2,6 +2,7 @@ html{
    background-color: #091540ff;
 }
 .prese{
+    margin-top: 2vh;
     overflow: hidden;
     width: 90%;
     height: 80%;
@@ -18,8 +19,8 @@ html{
 }
 .imgtop{
     box-shadow: 0.7em 0em 6px rgb(0, 0,0,0.3);
-    height: 110px;
-    width: 110px;
+    height: 18vh;
+    width: 18vh;
     border-radius: 12vw;
     border: rgb(2, 2, 2);
     border-style: solid;
@@ -474,7 +475,7 @@ li{
     font-family: 'Noto Sans SC', sans-serif;
     font-stretch: condensed;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 3vh;
     color:black;
     text-shadow: 0.1em 0.1em 4px rgb(0, 0,0,0.2);
     padding-left: 1vw;

@@ -239,7 +239,7 @@ html{
   font-family: 'Noto Sans SC', sans-serif;
   font-stretch: condensed;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 3vh;
   color:black;
   text-shadow: 0.1em 0.1em 4px rgb(0, 0,0,0.2);
   padding-left: 1vw;
@@ -247,6 +247,7 @@ html{
 }
 /* Media querys*/
 @media (max-width:700px) {
+
   .modal-content{
     width: 100vh;
     height: 100vh;
@@ -269,7 +270,7 @@ html{
   }
 
   .titulo{
-    font-size: 3vh;
+    font-size: 3.2vh;
   }
   .des{
     font-size: 1vh;
