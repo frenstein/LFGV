@@ -3,11 +3,9 @@
     <head>
         <title>C.V. de Luis González</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+        <meta name="viewport" content="width-divice-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/normalize.css">
         <link rel="stylesheet" href="./assets/main.css">
-        <link rel="stylesheet" href="./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf">
-        <link rel="stylesheet" href="./fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
@@ -21,8 +19,10 @@
         <head class="">
             <div class="memebrete"> 
                 <img src="./pics/notebook-and-ballpoint-with-laptop-in-background.jpg" class="imgtop">
+                <div class="prese">
                 <div class="titulo">Luis Fernando González Vázquez</div>
                 <p class="des">Estudiante de Licenciatura en Geoquímica, Diseñador y Desarrollador web</p>
+                </div>
             </div>
         <div class="posterior">
             <p class="presenta">Estudiante de pregrado en la escuela de geoquímica de la Facultad de Ciencias, de la Universidad Central de Venezuela. 
@@ -64,7 +64,7 @@
                             </tr>
                             <tr>
                                 <td>Cargo:</td>
-                                <td>Preparador(2017)</td>
+                                <td>Preparador (2017)</td>
                             </tr>
                             <tr>
                                 <td>Materia:</td>
@@ -77,9 +77,33 @@
                             </tr>
                         </tbody>  
                     </table> 
-             </div>  
-             <div class="explab1">
-                 <img src="./pics/geomorf.png" class="img2">
+                </div>
+                <div class="explab1">
+                <img src="./pics/geomorf.png" class="img2">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Organización:</td>
+                                <td>Universidad Central de Venezuela</td>
+                            </tr>
+                            <tr>
+                                <td>Cargo:</td>
+                                <td>Preparador (2019)</td>
+                            </tr>
+                            <tr>
+                                <td>Materia:</td>
+                                <td>Geología Estructural</td>
+                            </tr>
+                            <tr>
+                                <td>Funciones:</td>
+                                <td>Impartir clases teórico-prácticas en la interpretación 
+                                    de datos geoestructurales asociados a fallas y pliegues.</td>
+                            </tr>
+                        </tbody>  
+                    </table> 
+            </div>  
+            <div class="explab1">
+            <img src="./pics/geoestruc.png" class="img2">
                  <table>
                     <tbody>
                         <tr>
@@ -88,31 +112,7 @@
                         </tr>
                         <tr>
                             <td>Cargo:</td>
-                            <td>Preparador(2019)</td>
-                        </tr>
-                        <tr>
-                            <td>Materia:</td>
-                            <td>Geología Estructural</td>
-                        </tr>
-                        <tr>
-                            <td>Funciones:</td>
-                            <td>Impartir clases teórico-prácticas en la interpretación 
-                                de datos geoestructurales asociados a fallas y pliegues.</td>
-                        </tr>
-                    </tbody>  
-                </table> 
-             </div>  
-             <div class="explab1">
-                <img src="./pics/geoestruc.png" class="img2">
-                 <table>
-                    <tbody>
-                        <tr>
-                            <td>Organización:</td>
-                            <td>Universidad Central de Venezuela</td>
-                        </tr>
-                        <tr>
-                            <td>Cargo:</td>
-                            <td>Preparador(2020)</td>
+                            <td>Preparador (2020)</td>
                         </tr>
                         <tr>
                             <td>Materia:</td>
@@ -126,9 +126,11 @@
                         </tr>
                     </tbody>  
                 </table> 
-                </div>  
-             </div>
+            </div> 
+        </div>
+    </div>  
         <h2 class="subti">Areas de Dominio</h2>
+    <!--<div>-->
         <div class="slidshow">
             <div class="mySlides fade">
             <img src="./pics/eyeglasses-with-camera-in-background.jpg" class="img3">
@@ -229,7 +231,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mySlides fade">
+        <div class="mySlides fade">
             <img src="./pics/phone-technology-building.jpg" class="img3">
                 <div class="cuadrou a6">
                     <div class="numberslide">
@@ -242,10 +244,6 @@
                         <div class="contimg4">
                             <img class="img4" src="./pics/excel.png" alt="Excel">
                             <p class="textimg4">Excel: Intermedio</p>
-                        </div>
-                        <div class="contimg4">
-                            <img class="img4" src="./pics/power.png" alt="Power Point">
-                            <p class="textimg4">Power Point: Intermedio</p>
                         </div>
                         <div class="contimg4">
                             <img class="img4" src="./pics/Autocad.png" alt="AutoCAD">
@@ -275,8 +273,9 @@
                 </div>
             </div>
         </div>
-        <a class="prev" onclick="plusSlides(-1)"><</a>
-        <a class="next" onclick="plusSlides(1)">></a>
+    <!--</div>-->
+        <a class="prev" onclick="plusSlides(-1)"><br><</a>
+        <a class="next" onclick="plusSlides(1)"><br>></a>
         <div style="text-align: center;">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -285,18 +284,16 @@
             <span class="dot" onclick="currentSlide(5)"></span>
             <span class="dot" onclick="currentSlide(6)"></span>
         </div>
-        <h2 class="subti">Titulos/Certificados/Diplomados</h2>
+        <h2 class="subti">Acreditaciones</h2>
         <div class="bordedepag">
         <a href="./titulos/Titulos.html"><div class="galeria">Galeria</div></a>
         </div>
-        <footer class="final">
                 <div class="info">
                     Contact: <br>
                     Residenciado en: Los Teques, Edo. Bolivariano de Miranda, Venezuela <br>
                     Teléfono: +58 4140116571 <br>
                     Correo electrónico: luifergv.11@gmail.com <br>
                 </div>
-        </footer>
     </body>
     <script src="./js/scripts.js"></script>
     <script src="./js/basta_plz.js"></script>
