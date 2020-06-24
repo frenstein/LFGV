@@ -134,7 +134,7 @@ html{
 .UCV{
     text-align: center;
     display: flex;
-    background-image: url(../pics/1024px-Biblioteca_Central_de_la_Ciudad_Universitaria._Caracas..jpg);
+    background-image: url(../pics/ucv.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 45vw;
@@ -282,7 +282,7 @@ table{
 
     }
     .info{
-        font-size: 6vh;
+        font-size: 2vh;
     }
 }
 
@@ -476,8 +476,9 @@ li{
     font-family: 'Noto Sans SC', sans-serif;
     font-stretch: condensed;
     font-weight: 800;
-    font-size: 3vh;
+    font-size: 2vh;
     color:black;
     text-shadow: 0.1em 0.1em 4px rgb(0, 0,0,0.2);
     padding-left: 1vw;
+    padding-top: 1vh;
 }

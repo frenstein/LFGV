@@ -244,9 +244,10 @@ html{
   text-shadow: 0.1em 0.1em 4px rgb(0, 0,0,0.2);
   padding-left: 1vw;
   margin-top: 2vh;
+  padding-top: 1vh;
 }
 /* Media querys*/
-@media (max-width:700px) {
+@media (max-width:600px) {
 
   .modal-content{
     width: 100vh;
@@ -282,5 +283,9 @@ html{
   .memebrete{
     height: 15vh;
   }
+  .info{
+    font-size: 2vh;
+  }
+
 
 }
